@@ -10,7 +10,7 @@ photo.addEventListener('click', (e) => {
     return;
   }
 
-  event.preventDefault();
+  e.preventDefault();
 
   galery.src = linkItem.href;
 });
